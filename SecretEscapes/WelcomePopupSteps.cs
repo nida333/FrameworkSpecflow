@@ -21,6 +21,7 @@ namespace SecretEscapes
         public void GivenWelcomePopUpIsDisplayed()
         {
             Assert.IsTrue(PageFactory.HomePage.SigninPopUp.Displayed);
+            //comments
         }
         
         
